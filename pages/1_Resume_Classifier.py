@@ -17,7 +17,7 @@ nlp = spacy.load("en_core_web_sm")
 
 
 # Load saved model components
-vectorizer = joblib.load("Supervised/Tfidf_vectorizer.pkl")
+vectorizer = joblib.load("Supervised/tfidf_vectorizer.pkl")
 label_encoder = joblib.load("Supervised/label_encoder.pkl")
 lr_model = joblib.load("Supervised/logistic_regression_model.pkl")
 rf_model = joblib.load("Supervised/random_forest_model.pkl")
