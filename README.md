@@ -52,24 +52,34 @@ PathGenie/
 ├── main.py
 ├── requirements.txt
 │
+
+
 ├── dataset/
 │ ├── job_skills_dataset_corrected.csv
 │ ├── learning_resources_dataset.csv
 │ └── unique.txt
 │
+
+
 ├── supervised/
 │ ├── logistic_regression_model.pkl
 │ ├── random_forest_model.pkl
 │ └── ...
 │
+
+
 ├── unsupervised/
 │ ├── cluster_predictor.py
 │ └── cluster_labels.pkl
 │
+
+
 ├── neural_network/
 │ ├── ann2.ipynb
 │ └── match_score_model.h5
 │
+
+
 ├── pages/
 │ ├── dashboard.py
 │ └── resume_parser.py
